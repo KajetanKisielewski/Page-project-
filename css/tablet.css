@@ -1,0 +1,52 @@
+.header {
+    height: 50vh;
+}
+
+.header__logo {
+    top: 5vh;
+    width: 30%;
+}
+
+.nav__hamburger {
+    top: 5vh;
+    right: 5vh;
+    width: 8rem;
+}
+
+.hamburger__top,
+.hamburger__middle,
+.hamburger__bottom {
+    height: 8px;
+}
+
+.hamburger__toggle:checked~.nav__hamburger .hamburger__bottom {
+    transform: translate(12px, -12px) rotate(45deg);
+}
+
+.nav__link {
+    font-size: 4rem;
+}
+
+.main__description {
+    font-size: 1.5rem;
+}
+
+.description--third {
+    font-size: 1.4rem;
+}
+
+
+input[type="checkbox"] {
+    bottom: 12%;
+    left: 1%;
+}
+
+.thanks__data {
+    padding: 3rem 5rem;
+}
+
+
+.close {
+    top: 5vh;
+    right: 5vh;
+}
